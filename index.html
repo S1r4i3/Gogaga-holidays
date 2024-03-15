@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gogaga.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710465184/logo_1-removebg-preview_novcfs.png" class="navbar-image img-fluid" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">Holidays Packages</a>
+                <a class="nav-link" href="#">Flight Booking</a>
+                <a class="nav-link" href="#">Hotel Booking</a>
+                <a class="nav-link" href="#">Package collections</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content-container">
+        <h1 class="content-heading">Welcome to Gogaga Holidays, your one-stop destination for memorable vacations and
+            exciting adventures around the globe.</h1>
+        <p class="content-paragragh">Embark on your next adventure with Gogaga Holidays and discover the world in
+            style. Your dream vacation awaits!</p>
+        <button class="content-button">Explore More</button>
+    </div>
+    <div class="holiday-container shadow">
+        <h1 class="holiday-heading">
+            Explore Our Exciting Holiday Packages
+        </h1>
+        <div id="packages-container" class="bd-example holiday-carousel  text-center w-100"></div>
+    </div>
+
+    <div class="flight-container">
+        <!-- Flight booking section -->
+        <section id="flights">
+            <div class="container">
+                <h2 class="heading">Flight Booking</h2>
+                <form class="form-container" id="flight-form">
+                    <div class="form-group">
+                        <label class="form-label" for="departure">Departure:</label>
+                        <input class="form-input" type="text" id="departure" name="departure" placeholder="Enter Departure City" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="destination">Destination:</label>
+                        <input class="form-input" type="text" id="destination" name="destination" placeholder="Enter Destination City" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="departure-date">Date:</label>
+                        <input class="date-input" type="date" id="departure-date" name="departure-date" required>
+                    </div>
+                    <button class="submit-btn" type="submit">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="hotel-container">
+        <!-- Hotel booking section -->
+        <section id="hotels">
+            <div class="container">
+                <h2 class="hotel-heading">Hotel Booking</h2>
+                <form class="hotel-form-container" id="hotel-form">
+                    <div class="hotel-form-group">
+                        <label class="hotel-form-label" for="destination">Destination:</label>
+                        <input class="hotel-form-input" type="text" id="destination" name="destination" placeholder="Enter Destination City" required>
+                    </div>
+                    <div class="hotel-form-group">
+                        <label class="hotel-form-label" for="check-in">Check-in Date:</label>
+                        <input class="hotel-form-input" type="date" id="check-in" name="check-in" required>
+                    </div>
+                    <div class="hotel-form-group">
+                        <label class="hotel-form-label" for="check-out">Check-out Date:</label>
+                        <input class="hotel-form-input" type="date" id="check-out" name="check-out" required>
+                    </div>
+                    <button class="hotel-submit-btn" type="submit">Search Hotels</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <h1 class="travel-heading">Choose Country</h1>
+    <div class="travel-container">
+
+        <div class="travel-card">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710497680/india_tnds11.jpg" class="card-bg-img" alt="Card Background">
+            <h2 class="card-heading">India<br><span class="para-travel">Range starts from INR 85,999 Per Person</span></h2>
+
+        </div>
+
+        <div class="travel-card">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710497680/japan_v9mbec.jpg" class="card-bg-img" alt="Card Background">
+            <h2 class="card-heading">Japan<br><span class="para-travel">Range starts from INR 89,999 Per Person</span></h2>
+        </div>
+
+        <div class="travel-card">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710497681/spain_t00lts.jpg" class="card-bg-img" alt="Card Background">
+            <h2 class="card-heading">Turkey<br><span class="para-travel">Range starts from INR 69,999 Per Person</span></h2>
+        </div>
+        <div class="travel-card">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710497685/euro_lv5gct.jpg" class="card-bg-img" alt="Card Background">
+            <h2 class="card-heading">Germany<br><span class="para-travel">Range starts from INR 59,999 Per Person</span></h2>
+        </div>
+        <div class="travel-card">
+            <img src="https://res.cloudinary.com/dhwydorji/image/upload/v1710497683/us_ecvk1t.jpg" class="card-bg-img" alt="Card Background">
+            <h2 class="card-heading">UK<br><span class="para-travel">Range starts from INR 10,00000 Per Person</span></h2>
+        </div>
+
+    </div>
+</body>
+
+</html>

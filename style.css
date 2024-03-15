@@ -1,0 +1,363 @@
+
+.navbar-image {
+    width: 50%;
+    height: 5rem;
+    padding: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .navbar-image {
+        width: 60%;
+        height: 7rem;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+
+}
+
+.content-container {
+    background-image: url("https://res.cloudinary.com/dhwydorji/image/upload/v1710485062/beacxh_mjacpi.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+.content-heading {
+    font-family: "Angkor";
+    font-size: 20px;
+    padding: 15px;
+    letter-spacing: 2px;
+    color: #19305a;
+    font-weight: bold;
+}
+
+.content-paragragh {
+    font-family: "Caveat";
+    font-size: 18px;
+    color: #19305a;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.content-button {
+    background-color: #444141;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.content-button:hover {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+}
+
+@keyframes slidernbw {
+    to {
+        background-position: 20vw;
+    }
+}
+
+
+.holiday-container {
+    width: 100vw;
+    display: flex;
+    background-color: #f3eff7;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.holiday-heading {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.images {
+    height: 50vh;
+    background-size: cover;
+    width: 50vw;
+}
+
+.holiday-carousel {
+    border-radius: 20px;
+    width: 80vw;
+
+}
+
+h5 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.carousel-caption {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.holiday-card {
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.date-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    .form-group {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hotel-heading {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hotel-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-form-group {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.hotel-form-label {
+    color: #666;
+    font-size: 16px;
+}
+
+.hotel-form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hotel-submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hotel-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    .hotel-form-group {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+.flight-container {
+    background-color: #deddd9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+
+}
+
+.hotel-container {
+    background-color: #e4d3de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.travel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.travel-card {
+    position: relative;
+    width: 110Vw;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-bg-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    margin: 5px;
+    padding: 10px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.para-travel {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.card-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-image {
+        width: 60%;
+        height: 7rem;
+    }
+}
+
+.travel-heading {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .content-heading {
+        font-size: 16px;
+    }
+
+    .content-paragragh {
+        font-size: 14px;
+    }
+}
